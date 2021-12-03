@@ -5,9 +5,9 @@ For ethical hacking techniques on how to create phishing emails and websites.
 Phishing websites can be created using blackeye. 
 1. Download blackeye ``` git clone https://github.com/An0nUD4Y/blackeye```
 2. Download ngrok with steps 1 and 2 of this page: https://dashboard.ngrok.com/get-started/setup
-3. Run black eye ``` cd blackeye\n sudo ./blackeye.sh```
+3. Run black eye ``` cd blackeye``` ```sudo ./blackeye.sh```
 4. Run ngrok ```./ngrok http 8080
-5. Run site: ```cd blackeye/sites/instgram\n php -S localhost:8080```
+5. Run site: ```cd blackeye/sites/instgram``` ```php -S localhost:8080```
 A site is ran: 
 ![image](https://user-images.githubusercontent.com/39514108/144540427-1665c79c-c533-4f5b-80b2-917954cdc7d6.png)
 The credentials are also captured when a user enters it:
